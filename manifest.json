@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "SorareData Data Scrapper",
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.soraredata.com/player-search"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
